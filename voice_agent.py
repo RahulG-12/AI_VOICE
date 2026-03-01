@@ -79,11 +79,7 @@ def get_weather(city: str):
 
             return f"The weather in {city} is {desc} with temperature {temp}°C"
 
-    except Exception:
-        pass   # ignore error and fallback
-
-    # ---------- FALLBACK ----------
-    return f"The weather in {city} is around 30°C with partly cloudy skies (demo data)"
+    
 
 
 available_Tools = {
@@ -215,4 +211,5 @@ def start_voice_loop(ui):
 
                 ui.success(f"🤖 OUTPUT: {parsed_result.content}")
                 loop.run_until_complete(tts(parsed_result.content))
+
                 break
