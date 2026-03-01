@@ -88,7 +88,7 @@ voice-agent/
 
 Due to hardware dependencies (microphone and system access), the project is demonstrated via recorded execution.
 
-🔗 Demo Link: YOUR_VIDEO_LINK
+🔗 Demo Link: https://drive.google.com/drive/folders/1ymbUSTtKHmJd2NcwfFDdLg03L1BkvTgp?usp=drive_link
 
 ---
 
